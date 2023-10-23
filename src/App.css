@@ -1,0 +1,104 @@
+body{
+    display: flex;
+}
+
+.top-bar{
+    width: 100vw;
+    height: 20vh;
+    background-color: #D8B4F8;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.brand-logo{
+    max-width: 100%;
+    width: 8vw;
+    height: 7.5vw;
+    border-radius: 50%;
+    margin-left: 35px;
+    filter: drop-shadow(0 0 8px #fff);
+}
+
+.brand-name{
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-shadow: #9b45df 8px 5px 6px ;
+}
+.middle{
+    display: flex;
+    justify-content: center;    
+    gap: 50px;
+    width: 100vw;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-self: center;
+}
+.input-box{
+    width: 305px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #9b45df;
+    outline: none;
+    padding: 0 12px 0 12px;
+    font-size: 1.2em;
+}
+.input-box:focus {
+    box-shadow: 0px 0px 22px  #D8B4F8;
+}
+.input-box::placeholder{
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.meme-btn{
+    width: 325px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #9b45df;
+    outline: none;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.meme-btn:hover{
+    box-shadow:0 0 22px #9b45df;
+}
+
+.meme{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    margin-top: 45px;
+}
+.meme-img{
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+    box-shadow:0 0 22px #9b45df;
+}
+.meme-text{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-wrap:break-word;
+}
+
+.top{
+    top: 0;
+}
+.bottom{
+    bottom: 14vh;
+}
